@@ -1,5 +1,5 @@
 module.exports.helloWorld = function(){
-  return 'Hello World'
+  return 'Hello World';
 };
 
 module.exports.multiply = function(a ,b){

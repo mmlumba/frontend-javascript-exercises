@@ -1,11 +1,12 @@
 module.exports.addItem = function(addSomething, inputArray){ //fix
-  for (var i; i < inputArray.length; i++){
+  for (var i = 0; i < inputArray.length; i++){
     if (addSomething!=inputArray[i]){
       inputArray.push(addSomething);
     }
-    else {
+    /*else {
       return inputArray;
-    }
+    }*/  
+    return inputArray;
   }
 };
 

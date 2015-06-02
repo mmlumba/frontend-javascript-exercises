@@ -1,13 +1,8 @@
 module.exports.addItem = function(addSomething, inputArray){ //fix
-  for (var i = 0; i < inputArray.length; i++){
-    if (addSomething!=inputArray[i]){
-      inputArray.push(addSomething);
-    }
-    /*else {
-      return inputArray;
-    }*/  
-    return inputArray;
+  if (inputArray.indexOf(addSomething) === -1){
+    inputArray.push(addSomething);
   }
+  return inputArray;
 };
 
 module.exports.reverseSortedList = function(inputArray){

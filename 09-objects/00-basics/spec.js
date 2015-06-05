@@ -22,7 +22,6 @@ describe("createCourse", function() {
   });
 });
 
-
 describe("addProperty", function() {
   var teacher = null,
       teacherWithFavoriteStudent = null;

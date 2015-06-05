@@ -30,7 +30,9 @@ module.exports.canIGet = function(item, money){
         "Mac Pro": 2499,
         "Apple Sticker": 1
     };
-    for (money in macProducts){
-        return true;
+    for (var key in macProducts){
+        if (key <= money){
+            return true;
+        }
     }
 };

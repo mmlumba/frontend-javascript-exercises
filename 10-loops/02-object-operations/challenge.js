@@ -1,4 +1,11 @@
-module.exports.copy = function(newObj){
+module.exports.copy = function(obj) {
+    var oldKeys = Object.keys(obj);
+    var newObj = new Object;
+    //var newKeys = Object.keys(newObj);
+    for (var key in oldKeys){
+        var newKeys = Object.keys(newObj);
+        oldKeys[key] = newKeys[key];
+    }
     return newObj;
 };
 

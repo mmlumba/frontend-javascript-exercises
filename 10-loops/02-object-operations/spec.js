@@ -29,7 +29,7 @@ describe("extend", function() {
     expect(result).to.have.keys(['name', 'cost', 'first_name', 'age']);
   });
 
-  it("should correctly extend two hashes that are have keys in common", function() {
+  it("should correctly extend two hashes that have keys in common", function() {
     dest = { name: "Computer", cost: "$1,000" };
     src = { name: "Mouse", uuid: "1234" };
     result = challenge.extend(dest, src);

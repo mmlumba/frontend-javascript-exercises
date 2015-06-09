@@ -1,4 +1,8 @@
 {
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/mmlumba/frontend-javascript-exercises.git"
+  },
   "name": "BlocJSExercises",
   "version": "0.0.0",
   "description": "Student javascript exercises",
@@ -9,5 +13,5 @@
     "rosie": "0.2.0",
     "karma-sinon": "1.0.0",
     "underscore": "1.6.0"
-  }
+  }  
 }
